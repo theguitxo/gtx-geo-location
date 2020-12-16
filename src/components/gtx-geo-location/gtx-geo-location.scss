@@ -1,0 +1,66 @@
+.geo-location {
+  &__wrapper {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 1px #000;
+    padding: .5rem 1rem;
+    font-size: .75rem;
+    max-width: 300px;
+  }
+
+  &__title-wrapper {
+    margin-bottom: .5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__icon-wrapper,
+  &__error-icon {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 1.5rem;
+      height: auto;
+      margin: 0;
+      margin-right: .5rem;
+      display: block;
+    }
+  }
+
+  &__error-icon {
+    img {
+      height: 2.5rem;
+      width: auto;
+    }
+  }
+
+  &__title-text {
+    padding: .25rem 0;
+  }
+
+  &__footer {
+    margin-top: .5rem;
+    text-align: justify;
+  }
+
+  &__information-wrapper {
+    margin-bottom: .5rem;
+
+    p {
+      margin: 0.5rem 0 0 0;
+    }
+  }
+
+  &__map-wrapper {
+    height: 100px;
+    width: 100%;
+  }
+
+  &__error-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
