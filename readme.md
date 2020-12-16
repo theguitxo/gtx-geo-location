@@ -14,3 +14,12 @@ Stencil dispone de un servidor local para el desarrollo que actualiza la página
 
 Se ha de clonar el proyecto, acceder a la carpeta del proyecto, instalar las depedencias y ejecutar el script de inicio.
 
+````
+git clone https://github.com/theguitxo/gtx-geo-location
+
+cd gtx-geo-location
+
+npm install
+
+npm start
+````
